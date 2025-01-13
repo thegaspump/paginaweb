@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Gas Pump</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+      margin: 0;
+    }
+    .container {
+      margin-top: 20%;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    button {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Descubre lo mejor en The Gas Pump!</h1>
+    <button onclick="window.location.href='https://www.instagram.com/TuInstagram'">
+      Visítanos en Instagram
+    </button>
+  </div>
+</body>
+</html>
